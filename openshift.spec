@@ -19,8 +19,8 @@
 Name:           openshift
 # Version is not kept up to date and is intended to be set by tito custom
 # builders provided in the rel-eng directory of this project
-Version:        0.0.1
-Release:        0%{?dist}
+Version:        1.0.4
+Release:        1%{?dist}
 Summary:        Open Source Platform as a Service by Red Hat
 License:        ASL 2.0
 URL:            https://%{import_path}
