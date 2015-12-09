@@ -18,6 +18,7 @@ import (
 	"github.com/docker/distribution/registry/handlers"
 	_ "github.com/docker/distribution/registry/storage/driver/filesystem"
 	_ "github.com/docker/distribution/registry/storage/driver/s3"
+	_ "github.com/docker/distribution/registry/storage/driver/azure"
 	"github.com/docker/distribution/version"
 	gorillahandlers "github.com/gorilla/handlers"
 	"github.com/openshift/origin/pkg/cmd/server/crypto"
